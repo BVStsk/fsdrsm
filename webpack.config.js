@@ -6,7 +6,7 @@ const sass = require('./webpack/sass');
 
 const PATHS = {
     source: path.join(__dirname, 'source'),
-    build: path.join(__dirname, 'build')
+    build: path.join(__dirname)
 };
 
 module.exports = merge([

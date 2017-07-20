@@ -1,5 +1,6 @@
-import './index.scss';
+import './ul/ul.scss';
 
-import createMenu from './menu';
+import createMenu from './ul/ul';
+
 var menu = createMenu(['glavnaya','obo mne','portfolio'], 'menu');
 document.body.appendChild(menu);

@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "webpack --watch",
-    "serv": "static build"
+    "serv": "static"
   },
   "author": "",
   "license": "ISC"

@@ -69,13 +69,14 @@
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_scss__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__index_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__index_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__menu__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ul_ul_scss__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ul_ul_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ul_ul_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ul_ul__ = __webpack_require__(6);
 
 
 
-var menu = Object(__WEBPACK_IMPORTED_MODULE_1__menu__["a" /* default */])(['glavnaya','obo mne','portfolio'], 'menu');
+
+var menu = Object(__WEBPACK_IMPORTED_MODULE_1__ul_ul__["a" /* default */])(['glavnaya','obo mne','portfolio'], 'menu');
 document.body.appendChild(menu);
 
 /***/ }),
@@ -99,8 +100,8 @@ if(content.locals) module.exports = content.locals;
 if(false) {
 	// When the styles change, update the <style> tags
 	if(!content.locals) {
-		module.hot.accept("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./index.scss", function() {
-			var newContent = require("!!../node_modules/css-loader/index.js!../node_modules/sass-loader/lib/loader.js!./index.scss");
+		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./ul.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./ul.scss");
 			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
 			update(newContent);
 		});
@@ -118,7 +119,7 @@ exports = module.exports = __webpack_require__(3)(undefined);
 
 
 // module
-exports.push([module.i, "ul {\n  border: 2px solid black; }\n  ul li {\n    display: inline-block;\n    color: red;\n    margin-bottom: 30px;\n    margin-right: 30px; }\n", ""]);
+exports.push([module.i, "ul {\n  border: 2px solid black; }\n  ul li {\n    display: inline-block;\n    color: red;\n    margin-bottom: 30px;\n    margin-right: 30px;\n    font-size: 30px; }\n", ""]);
 
 // exports
 
