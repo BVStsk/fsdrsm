@@ -60,72 +60,11 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 2);
 /******/ })
 /************************************************************************/
 /******/ ([
 /* 0 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ul_ul_scss__ = __webpack_require__(1);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__ul_ul_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__ul_ul_scss__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__ul_ul__ = __webpack_require__(6);
-
-
-
-
-var menu = Object(__WEBPACK_IMPORTED_MODULE_1__ul_ul__["a" /* default */])(['glavnaya','obo mne','portfolio'], 'menu');
-document.body.appendChild(menu);
-
-/***/ }),
-/* 1 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// style-loader: Adds some css to the DOM by adding a <style> tag
-
-// load the styles
-var content = __webpack_require__(2);
-if(typeof content === 'string') content = [[module.i, content, '']];
-// Prepare cssTransformation
-var transform;
-
-var options = {}
-options.transform = transform
-// add the styles to the DOM
-var update = __webpack_require__(4)(content, options);
-if(content.locals) module.exports = content.locals;
-// Hot Module Replacement
-if(false) {
-	// When the styles change, update the <style> tags
-	if(!content.locals) {
-		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./ul.scss", function() {
-			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./ul.scss");
-			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
-			update(newContent);
-		});
-	}
-	// When the module is disposed, remove the <style> tags
-	module.hot.dispose(function() { update(); });
-}
-
-/***/ }),
-/* 2 */
-/***/ (function(module, exports, __webpack_require__) {
-
-exports = module.exports = __webpack_require__(3)(undefined);
-// imports
-
-
-// module
-exports.push([module.i, "ul {\n  border: 2px solid black; }\n  ul li {\n    display: inline-block;\n    color: red;\n    margin-bottom: 30px;\n    margin-right: 30px;\n    font-size: 30px; }\n", ""]);
-
-// exports
-
-
-/***/ }),
-/* 3 */
 /***/ (function(module, exports) {
 
 /*
@@ -207,7 +146,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 4 */
+/* 1 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -566,6 +505,67 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__block_INJ_circle_icon_circle_icon_scss__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__block_INJ_circle_icon_circle_icon_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__block_INJ_circle_icon_circle_icon_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__block_INJ_block_INJ_scss__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__block_INJ_block_INJ_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1__block_INJ_block_INJ_scss__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fonts_fonts_scss__ = __webpack_require__(14);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__fonts_fonts_scss___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2__fonts_fonts_scss__);
+
+
+
+
+/***/ }),
+/* 3 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(4);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./circle-icon.scss", function() {
+			var newContent = require("!!../../../node_modules/css-loader/index.js!../../../node_modules/sass-loader/lib/loader.js!./circle-icon.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 4 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".circle-icon {\n  border-radius: 50%;\n  background-color: #3d6cb0;\n  box-shadow: 0 0 0 14px white,\r 0 0 0 15px #3d6cb0;\n  display: inline-block; }\n", ""]);
+
+// exports
+
+
+/***/ }),
 /* 5 */
 /***/ (function(module, exports) {
 
@@ -662,19 +662,99 @@ module.exports = function (css) {
 
 /***/ }),
 /* 6 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
+/***/ (function(module, exports, __webpack_require__) {
 
-"use strict";
-/* harmony default export */ __webpack_exports__["a"] = (function(array, className) {
-    var menu = document.createElement("ul");
-    menu.className = className;
-    var listItems = '';
-    array.forEach(function(item) {
-        listItems += '<li>' + item + '</li>';
-    });
-    menu.innerHTML = listItems;
-    return menu;
-});;
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(7);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./block-INJ.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./block-INJ.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 7 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, ".block-INJ {\n  margin-top: 105px;\n  position: relative;\n  max-width: 43.7%;\n  text-align: center; }\n\n.block-INJ_text {\n  display: block; }\n\n.block-INJ_name {\n  margin-top: 34px;\n  font-size: 57px;\n  font-family: MyriadPro-Regular, sans-serif; }\n\n.block-INJ_surname {\n  margin-top: -21px;\n  font-size: 63px;\n  font-family: MyriadPro-Bold, sans-serif; }\n\n.block-INJ_prof {\n  font-size: 24px;\n  font-family: MyriadPro-bold, sans-serif; }\n", ""]);
+
+// exports
+
+
+/***/ }),
+/* 8 */,
+/* 9 */,
+/* 10 */,
+/* 11 */,
+/* 12 */,
+/* 13 */,
+/* 14 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// style-loader: Adds some css to the DOM by adding a <style> tag
+
+// load the styles
+var content = __webpack_require__(15);
+if(typeof content === 'string') content = [[module.i, content, '']];
+// Prepare cssTransformation
+var transform;
+
+var options = {}
+options.transform = transform
+// add the styles to the DOM
+var update = __webpack_require__(1)(content, options);
+if(content.locals) module.exports = content.locals;
+// Hot Module Replacement
+if(false) {
+	// When the styles change, update the <style> tags
+	if(!content.locals) {
+		module.hot.accept("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./fonts.scss", function() {
+			var newContent = require("!!../../node_modules/css-loader/index.js!../../node_modules/sass-loader/lib/loader.js!./fonts.scss");
+			if(typeof newContent === 'string') newContent = [[module.id, newContent, '']];
+			update(newContent);
+		});
+	}
+	// When the module is disposed, remove the <style> tags
+	module.hot.dispose(function() { update(); });
+}
+
+/***/ }),
+/* 15 */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(0)(undefined);
+// imports
+
+
+// module
+exports.push([module.i, "@font-face {\n  font-family: 'MyriadPro-Regular';\n  src: url(\"/source/fonts/MyriadPro-Regular.eot\");\n  src: url(\"/source/fonts/MyriadPro-Regular.woff\") format(\"woff\"), url(\"/source/fonts/MyriadPro-Regular.ttf\") format(\"truetype\"), url(\"/source/fonts/MyriadPro-Regular.svg\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n\n@font-face {\n  font-family: 'MyriadPro-Bold';\n  src: url(\"/source/fonts/MyriadPro-Bold.eot\");\n  src: url(\"/source/fonts/MyriadPro-Bold.woff\") format(\"woff\"), url(\"/source/fonts/MyriadPro-Bold.ttf\") format(\"truetype\"), url(\"/source/fonts/MyriadPro-Bold.svg\") format(\"svg\");\n  font-weight: normal;\n  font-style: normal; }\n", ""]);
+
+// exports
+
 
 /***/ })
 /******/ ]);
